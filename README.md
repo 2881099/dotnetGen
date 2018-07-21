@@ -18,26 +18,30 @@
 
 -----------------
 
-| <font color=gray>功能对比</font> | [dotnetGen](https://github.com/2881099/dotnetGen) | [dotnetGen_sqlserver](https://github.com/2881099/dotnetGen_sqlserver) | [dotnetGen_mysql](https://github.com/2881099/dotnetGen_mysql) | [dotnetGen_postgresql](https://github.com/2881099/dotnetGen_postgresql) |
+| <font color=gray>功能对比</font> | [dotnetGen](https://github.com/2881099/dotnetGen) | [dotnetGen_mysql](https://github.com/2881099/dotnetGen_mysql) | [dotnetGen_sqlserver](https://github.com/2881099/dotnetGen_sqlserver) | [dotnetGen_postgresql](https://github.com/2881099/dotnetGen_postgresql) |
 | ----------------: | -------------:| --------------------:| --------------: | -------------------: |
 | windows            | √ | √ | √ | √ |
-| linux              | - | - | √ | √ |
+| linux              | - | √ | √ | √ |
 | 连接池             | √ | √ | √ | √ |
 | 事务               | √ | √ | √ | √ |
+| 多数据库            | √ | √ | - | - |
 | 表                 | √ | √ | √ | √ |
 | 表关系(1对1)        | √ | √ | √ | √ |
 | 表关系(1对多)       | √ | √ | √ | √ |
 | 表关系(多对多)      | √ | √ | √ | √ |
 | 表主键             | √ | √ | √ | √ |
 | 表唯一键           | √ | √ | √ | √ |
-| 存储过程           | √ | - | - | - |
-| 视图               | - | - | √ | √ |
+| 存储过程           | √ | - | √ | - |
+| 视图               | √ | √ | √ | √ |
 | 类型映射           | √ | √ | √ | √ |
-| 枚举               | - | - | √ | √ |
+| 枚举               | - | √ | - | √ |
 | 自定义类型         | - | - | - | √ |
+| gis               | - | √ | - | √ |
 | 数组               | - | - | - | √ |
+| 字典               | - | - | - | √ |
 | xml               | - | - | - | - |
 | json              | - | - | - | √ |
-| 命令行生成         | - | - | √ | √ |
-| RESTful           | - | - | √ | √ |
-| 后台管理功能       | √ | - | √ | √ |
+| 缓存               | √ | √ | √ | √ |
+| 命令行生成         | √ | √ | √ | √ |
+| RESTful           | √ | √ | √ | √ |
+| 后台管理功能       | √ | √ | √ | √ |
